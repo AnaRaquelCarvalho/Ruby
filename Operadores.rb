@@ -15,18 +15,21 @@ mult = num1 * num2
 mod = num1 % num2
 exp = num1 ** num2
 
+puts'---------------------------'
 # 2-Operadores Atribuição
 num1 += 1 # num1 = num1 + 1
 num1 -= 1 # num1 = num1 - 1
 num1 *= 1 # num1 = num1 * 1
 num1 /= 1 # num1 = num1 / 1 
 
+puts'--------------------------'
 # 3-Atribuição paralela
 a, b = 5, 4
 a, b = b, a # inverte valores
 puts a
 puts b
 
+puts'--------------------------'
 # 4-Operadores de Comparação
 bigger = num1 > num2
 smaller = num1 < num2
@@ -35,24 +38,26 @@ different = num1 != num2
 bigger_equal = num1 >= num2
 smaller_equal = num1 <= num2
 
+puts'---------------------------------------'
 puts ((2 > 4) && (3 > 1))   # Retorna false, porque 2 > 4 é falso.
 puts ((2 > 4) || (3 > 1))   # Retorna true, porque 3 > 1 é verdadeiro.
 puts !((2 > 4) && (3 > 1))  # Retorna true, porque o "e" é falso, e "!" inverte.
 
-
+puts'--------------------------------------'
 # 6-Operadores Especiais
 print (1..5).to_a
 print (1...5).to_a
 # puts ('a'..'z').to_a
-print ('ab'...'yz').to_a
+puts ('ab'...'yz').to_a
 
+puts'--------------------------------------'
 # 7-Precedência de Operadores
-
 puts 3 + 2 * 5
 puts (3+2) *5
 puts 2 ** (2 + 2)
 puts 2 ** (3 * 2)
 
+puts'-------------------------------------'
 # 8-Operador Binary Left Shit
 name = ""
 name << "Fulano"
