@@ -1,6 +1,6 @@
-print('--------------------------------')
-print" Primeiros Comandos do Ruby\n "
-print('--------------------------------')
+puts('--------------------------------')
+puts" Primeiros Comandos do Ruby\n "
+puts('--------------------------------')
 
 # Comandos de saída de dados
 print 'Hello World"!' # Precisa de \n para pular linha
